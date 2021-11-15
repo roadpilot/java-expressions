@@ -1,6 +1,15 @@
 public class Boolean {
     // main method
     public static void main(String[] args){
-    System.out.println("TEST");
+        int attendees = 4;
+        boolean largeVenue;
+        //if statement example
+        if (attendees >= 5){
+            largeVenue = true;
+        }
+        else {
+            largeVenue = false;
+        }
+        System.out.println(largeVenue);
     }   
 }
