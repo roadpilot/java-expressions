@@ -9,6 +9,9 @@ public class Loops {
         
         int[] scores = {99, 65, 78};
         for (String el : arr){
+            if (el == "c"){
+                break;
+            }
             System.out.println(el);
         }
         
