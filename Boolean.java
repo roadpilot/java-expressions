@@ -4,12 +4,13 @@ public class Boolean {
         int attendees = 4;
         boolean largeVenue;
         //if statement example
-        if (attendees >= 5){
-            largeVenue = true;
-        }
-        else {
-            largeVenue = false;
-        }
+        // if (attendees >= 5){
+        //     largeVenue = true;
+        // }
+        // else {
+        //     largeVenue = false;
+        // }
+        largeVenue = (attendees >= 5);
         System.out.println(largeVenue);
     }   
 }
